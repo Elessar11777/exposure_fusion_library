@@ -10,7 +10,6 @@ Setup
     Ensure that you have Python 3.x installed on your machine.
 
     The code requires the following Python libraries:
-        os
         cv2 (OpenCV)
         numpy
 
@@ -28,7 +27,7 @@ How to Use
 
 image_list = MEF.image_loader("./path_to_images", (".jpg", ".png"))
 
-Processing Images: Use the process method to perform the fusion. This method expects a list of images (in numpy format), a target grayscale mean for brightness correction (gray), and a pixel_balance that determines the exposure target.
+Processing Images: Use the process method to perform the fusion. This method expects a list of images (in numpy format), a target grayscale mean for brightness correction (gray), and a pixel_balance that determines the exposure target preferences.
 
 Example:
 
